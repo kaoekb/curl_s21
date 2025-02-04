@@ -40,3 +40,12 @@ docker-compose down
 ```
 docker-compose stop
 ```
+
+---
+---
+
+### Отправка на сервер без git
+
+```
+scp -P 22 -r ./* root@IP:/var/www/s21-surgut.ru/
+```
